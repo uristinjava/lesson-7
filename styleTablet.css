@@ -1,0 +1,334 @@
+@media (max-width: 992px) {
+  * {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  .conteiner {
+    width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .conteiner .hearding {
+    max-width: 768px;
+    background-image: url(img/FoneHearding.png);
+    margin-top: 42px;
+    height: 768px;
+  }
+  .conteiner .hearding .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .conteiner .hearding .menu .url_menu_logo {
+    margin: 0;
+  }
+  .conteiner .hearding .menu .url_menu_book {
+    margin: 0;
+  }
+  .conteiner .hearding .Hearding_backgraund_content {
+    background-image: url(img/HeardingIllustration.svg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position-x: 358px;
+    background-position-y: center;
+    background-size: 50%;
+  }
+  .conteiner .hearding .Hearding_backgraund_content .hearding_Content {
+    width: 504px;
+    margin-top: 100px;
+    margin-right: 232px;
+  }
+  .conteiner .hearding .Hearding_backgraund_content .hearding_Content .hearding_text {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    width: 504px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+  }
+  .conteiner .hearding .Hearding_backgraund_content .hearding_Content .content_text {
+    width: 425px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-bottom: 72px;
+  }
+  .conteiner .hearding .Hearding_backgraund_content .bottom_heading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    -webkit-box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+            box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-left: 31px;
+    margin-top: 72px;
+  }
+  .conteiner .hearding .Hearding_backgraund_content .bottom_heading .bottom_headimg_text {
+    padding: 15px 50px 15px 50px;
+  }
+  .conteiner .hearding .Hearding_backgraund_content .bottom_heading .bottom_headimg_text .text_url {
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  .conteiner .what_we_do .what_we_do_header {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 64px;
+  }
+  .conteiner .what_we_do .what_we_do_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  .conteiner .what_we_do .what_we_do_box .what_we_do_box_content {
+    width: 359px;
+    height: 480.13px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+            box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin-bottom: 32px;
+  }
+  .conteiner .what_we_do .what_we_do_box .what_we_do_box_content .img_box {
+    padding-left: 70px;
+    padding-top: 44px;
+  }
+  .conteiner .what_we_do .what_we_do_box .what_we_do_box_content .box_text_top {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    padding-left: 29px;
+    width: 283px;
+    margin-top: 32px;
+  }
+  .conteiner .what_we_do .what_we_do_box .what_we_do_box_content .box_text_under {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    width: 268.31px;
+    height: 94.2px;
+    margin-top: 14px;
+    margin-bottom: 32px;
+    padding-left: 29px;
+    width: 268px;
+  }
+  .conteiner .what_we_do .what_we_do_box .what_we_do_box_content .url_in_box {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    padding-left: 55px;
+  }
+  .conteiner .promo .promo_header {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  .conteiner .promo .promo_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    width: 520px;
+    margin-left: 124px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+  }
+  .conteiner .promo .smart_home {
+    width: 704px;
+    height: 296px;
+    background-image: url(img/SmartHome.png);
+    background-size: 100%;
+    margin-bottom: 32px;
+    margin-left: 0px;
+  }
+  .conteiner .promo .smart_home .smart_text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-right: 64px;
+    padding-top: 64px;
+  }
+  .conteiner .promo .promo_card_car_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .conteiner .promo .promo_card_car_content .card_1 {
+    background-image: url(img/cellcall.png);
+    background-size: 100%;
+    width: 336px;
+    height: 253px;
+    border-radius: 10px;
+    margin: 0px;
+  }
+  .conteiner .promo .promo_card_car_content .card_1_text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-top: 32px;
+  }
+  .conteiner .promo .promo_card_car_content .card_2 {
+    background-image: url(img/cars.png);
+    background-size: 115%;
+    width: 336x;
+    height: 253px;
+    border-radius: 10px;
+    margin: 0px;
+  }
+  .conteiner .promo .promo_card_car_content .car_text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-top: 32px;
+  }
+  .conteiner .footer_content {
+    background-color: #316099;
+    height: 644px;
+    margin-top: 109px;
+    width: 768px;
+  }
+  .conteiner .footer_content .under_line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 321px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .conteiner .footer_content .under_line .under_text .text_header {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 341px;
+    padding-top: 64px;
+  }
+  .conteiner .footer_content .under_line .under_text .text_offer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 336px;
+    margin-top: 32px;
+  }
+  .conteiner .footer_content .under_line .under_bottom {
+    width: 133.04px;
+    height: 31.48px;
+    background: #5A98D0;
+    margin-top: 164px;
+    margin-right: 124px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .conteiner .footer_content .under_line .under_bottom .talk {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 3px;
+  }
+  .conteiner .footer_content .upper_line .list_info {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 112px;
+    margin-top: 64px;
+  }
+  .conteiner .footer_content .upper_line .text_contact_info {
+    margin-bottom: 24px;
+  }
+  .conteiner .footer_content .upper_line .contact_info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 50px;
+  }
+  .conteiner .footer_content .rights {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-top: 64px;
+    margin-left: 90px;
+  }
+}
+/*# sourceMappingURL=styleTablet.css.map */
