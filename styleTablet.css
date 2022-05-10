@@ -200,6 +200,9 @@
     padding-right: 64px;
     padding-top: 64px;
   }
+  .conteiner .promo .map {
+    max-width: 768px;
+  }
   .conteiner .promo .promo_card_car_content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -345,6 +348,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0 auto;
+    padding: 0;
   }
   .conteiner_contact .conteiner_menu {
     width: 768px;
@@ -526,6 +530,8 @@
   }
   .conteiner_contact .map {
     margin-bottom: 64px;
+    width: 768px;
+    height: 392px;
   }
   .conteiner_contact .footer_content {
     background-color: #316099;
