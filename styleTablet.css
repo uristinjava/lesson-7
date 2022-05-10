@@ -454,10 +454,13 @@
     letter-spacing: 0.04em;
     color: #1F3F68;
   }
-  .conteiner_contact .conteiner_menu .contact .contact_list .header_service .list_url .list_web {
+  .conteiner_contact .conteiner_menu .contact .contact_list .list_url {
+    margin-left: 23px;
+  }
+  .conteiner_contact .conteiner_menu .contact .contact_list .list_url .list_web {
     margin-bottom: 23px;
   }
-  .conteiner_contact .conteiner_menu .contact .contact_list .header_service .list_url .list_mail {
+  .conteiner_contact .conteiner_menu .contact .contact_list .list_url .list_mail {
     margin-top: 23px;
   }
   .conteiner_contact .conteiner_menu .contact .form {

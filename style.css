@@ -505,6 +505,10 @@
   color: #1F3F68;
 }
 
+.conteiner_contact .conteiner_menu .contact .contact_list .list_url {
+  margin-left: 0px;
+}
+
 .conteiner_contact .conteiner_menu .contact .contact_list .list_url .list_web {
   margin-top: 24px;
   list-style-image: url(img/web.png);

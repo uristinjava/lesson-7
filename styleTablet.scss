@@ -537,21 +537,28 @@
                            letter-spacing: 0.04em;
                            color: #1F3F68;
 
-                           .list_url {
+                       }
 
-                               .list_web {
-                                   margin-bottom: 23px;
-                               }
+                       .list_url {
 
-                               .list_mail {
-                                   margin-top: 23px;
-                               }
+                           margin-left: 23px;
 
+                           .list_web {
+                               margin-bottom: 23px;
+                           }
 
+                           .list_mail {
+                               margin-top: 23px;
                            }
 
 
                        }
+
+
+
+
+
+
 
 
                    }
